@@ -7,7 +7,7 @@ from google.genai import types
 
 def judicial_chatbot(user_input):
     client = genai.Client(
-        api_key="AIzaSyBoCiFMnGRwGy5XHbdEeggiE7RTe865usg"
+        api_key="API-KEY"
     )
 
     model = "gemini-3-flash-preview"
@@ -159,3 +159,4 @@ st.markdown(
     "<div class='chat-box'><b>⚠️ Disclaimer:</b> This assistant provides general information only and does not offer legal advice.</div>",
     unsafe_allow_html=True
 )
+
